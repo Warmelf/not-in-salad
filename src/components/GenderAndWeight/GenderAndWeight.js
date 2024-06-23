@@ -26,7 +26,7 @@ class GenderAndWeight extends React.Component {
                 className={`gender_image_button ${
                     !this.state.isActiveMan ? "opacity" : null
                 }`}
-                ><img src="/male.png" alt="Мужчина" className="gender_image" /></button>
+                ><img src={`${process.env.PUBLIC_URL}/male.png`} alt="Мужчина" className="gender_image" /></button>
                 <button onClick={(e) => { 
                     e.preventDefault();
                     this.props.updateСoefGender(this.state.coefGender[1]);
@@ -37,7 +37,7 @@ class GenderAndWeight extends React.Component {
                 className={`gender_image_button ${
                     !this.state.isActiveWoman ? "opacity" : null
                 }`}
-                ><img src="/female.png" alt="Женщина" className="gender_image" /></button>
+                ><img src={`${process.env.PUBLIC_URL}/female.png`} alt="Женщина" className="gender_image" /></button>
             </div>
             <div className="weight_wrapper">
                 <div className="weight_content">

@@ -17,7 +17,7 @@ class StartPage extends React.Component {
                 this.props.updateStep(this.state.nextStep);
             }}>
                 <h1>Не<br />в<br />салат</h1>
-                <img alt="" src='/logo.png' className="start_img" />
+                <img alt="" src={`${process.env.PUBLIC_URL}/logo.png`} className="start_img" />
                 <p className="text start_warning">Чрезмерное употребление алкоголя вредит Вашему здоровью</p>
             </div>
         );

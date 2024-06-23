@@ -22,7 +22,7 @@ class Result extends React.Component {
         return (
             <div className="result_wrapper">
                 <h2 className="text result_text">Алкоголь выведется через {this.props.result} {this.getTime(this.props.result)}</h2>
-                <img alt="" src="/logo.png" className="result_img"/>
+                <img alt="" src={`${process.env.PUBLIC_URL}/logo.png`} className="result_img"/>
                 <button onClick={(e) => { 
                     e.preventDefault();
                     this.props.updateStep(this.state.nextStep);

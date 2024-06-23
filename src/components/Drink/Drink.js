@@ -30,7 +30,7 @@ class Drink extends React.Component {
                     this.setState({ isSize: true });
                 }} 
                 />
-                <img alt="" src="/wait.png" className="drink_img"/>
+                <img alt="" src={`${process.env.PUBLIC_URL}/wait.png`} className="drink_img"/>
                 <div className="buttons_wrapper">
                     <button onClick={(e) => { 
                         e.preventDefault();
