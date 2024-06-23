@@ -1,0 +1,262 @@
+.gender_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weight_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender_images_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gender_image_button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.opacity {
+    opacity: 0.4;
+}
+
+.gender_image:first-child {
+    margin-right: 20px;
+}
+
+.gender_image {
+    width: 60%;
+}
+
+.weight_title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 321px) {
+    .gender_image {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 330px) {
+    .gender_image {
+        width: 53%;
+    }
+}
+
+@media screen and (min-width: 355px) {
+    .gender_image {
+        width: 51%;
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .gender_image {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 391px) {
+    .gender_title {
+        font-size: 28px;
+    }
+
+    .gender_image {
+        width: 43%;
+    }
+
+    .weight_title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .gender_title {
+        font-size: 36px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .gender_images_wrapper {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .gender_image {
+        width: 100%;
+    }
+
+    .weight_title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .input.input_gender {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 530px) {
+    .gender_title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .gender_images_wrapper {
+        margin-bottom: 10px;
+    }
+
+    .weight_title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .input.input_gender {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 596px) {
+    .weight_wrapper {
+        flex-direction: row;
+    }
+
+    .weight_content {
+        margin-right: 50px;
+    }
+
+    .button.button_weight {
+        height: 42px;
+        width: 200px;
+        margin-top: 71px;
+    }
+}
+
+@media screen and (min-width: 638px) {
+    .weight_content {
+        margin-right: 80px;
+    }
+
+    .button.button_weight {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 692px) {
+    .gender_image {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 784px) {
+    .weight_content {
+        margin-right: 110px;
+    }
+}
+
+@media screen and (min-width: 865px) {
+    .gender_image {
+        width: 70%;
+    }
+
+    .weight_content {
+        margin-right: 130px;
+    }
+
+    .button.button_weight {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 964px) {
+    .gender_image {
+        width: 60%;
+    }
+
+    .weight_content {
+        margin-right: 160px;
+    }
+
+    .button.button_weight {
+        width: 270px;
+    }
+    
+    .gender_images_wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1004px) {
+    .gender_title {
+        font-size: 46px;
+    }
+
+    .gender_image {
+        width: 60%;
+    }
+
+    .weight_content {
+        margin-right: 200px;
+    }
+
+    .weight_title {
+        font-size: 46px;
+    }
+
+    .button.button_weight {
+        width: 330px;
+        height: 44px;
+        font-size: 20px;
+        margin-top: 83px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .gender_title {
+        font-size: 50px;
+    }
+
+    .gender_image {
+        width: 70%;
+    }
+
+    .weight_content {
+        margin-right: 200px;
+    }
+
+    .weight_title {
+        font-size: 50px;
+    }
+
+    .input.input_gender {
+        font-size: 30px;
+    }
+
+    .button.button_weight {
+        width: 350px;
+        height: 60px;
+        margin-top: 85px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .gender_image {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .gender_image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.start_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 755px;
+}
+
+h1 {
+    background-image: url("fire.gif");
+    background-size: 60%;
+    text-shadow: 2px 2px 3px rgba(163, 12, 12, 0.8);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 70px;
+    width: 80%;
+	margin: 30px 60px;
+}
+
+.text.start_warning {
+    font-size: 10px;
+    color: white;
+}
+
+@media screen and (min-width: 375px) {
+    .text.start_warning {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 666px) {
+    .text.start_warning {
+        font-size: 16px;
+    }
+}
